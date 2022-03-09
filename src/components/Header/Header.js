@@ -1,47 +1,91 @@
 import React from "react"
 import { Link } from "gatsby"
 
-export default function Header() {
-  return(<div>
-  
+const Header = () => {
+  return (
+    <nav
+      className="navbar navbar-expand-lg navbar-dark bg-dark"
+      aria-label="Fifth navbar example"
+    >
+      <div className="container-fluid">
+        <a className="navbar-brand" href="/">
+          PROJECT2022
+        </a>
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarsExample05"
+          aria-controls="navbarsExample05"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
 
-
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarColor01">
-      <ul class="navbar-nav me-auto">
-        <li class="nav-item btn btn-outline-primary">
-        <Link className="text-light text-decoration-none" to ="/">Home</Link>
-        </li>
-        <li class="nav-item">
-        <Link to ="/about">About</Link>
-        </li>
-        <li class="nav-item">
-        <Link to ="/contact">Contact</Link>
-        </li>
-        
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Separated link</a>
-          </div>
-        </li>
-      </ul>
-      <form class="d-flex">
-        <input class="form-control me-sm-2" type="text" placeholder="Search"/>
-        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-      </form>
-    </div>
-  </div>
-</nav></div>
+        <div className="collapse navbar-collapse" id="navbarsExample05">
+          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+            <li className="btn text-danger">
+              <Link className="text-light" to="/">
+                Home
+              </Link>
+            </li>
+            <li className="btn text-danger">
+              <Link className="text-light" to="/about">
+                About
+              </Link>
+            </li>
+            <li className="btn text-danger">
+              <Link className="text-light" to="/contact">
+                Contact
+              </Link>
+            </li>
+            <li className="btn text-danger">
+              <Link className="text-warning" to="/blog">
+                Blog
+              </Link>
+            </li>
+            <li className="nav-item dropdown">
+              <a
+                className="nav-link dropdown-toggle"
+                href="/"
+                id="dropdown05"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Shop
+              </a>
+              <ul className="dropdown-menu" aria-labelledby="dropdown05">
+                <li>
+                  <a className="dropdown-item" href="/">
+                    General clothes Store
+                  </a>
+                </li>
+                <li>
+                  <a className="dropdown-item" href="/">
+                    Supriya Cosmetic store
+                  </a>
+                </li>
+                <li>
+                  <a className="dropdown-item" href="/">
+                    Grocery Shop
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form>
+            <input
+              className="form-control"
+              type="text"
+              placeholder="Search"
+              aria-label="Search"
+            />
+          </form>
+        </div>
+      </div>
+    </nav>
   )
 }
+
+export default Header
