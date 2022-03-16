@@ -53,12 +53,12 @@ const Header = () => {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Shop
+                Shops
               </a>
               <ul className="dropdown-menu" aria-labelledby="dropdown05">
                 <li>
                   <a className="dropdown-item" href="/">
-                    General clothes Store
+                     clothes Store
                   </a>
                 </li>
                 <li>
