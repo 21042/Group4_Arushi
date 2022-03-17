@@ -33,7 +33,7 @@ const Items = [
 const Team = () => {
   return (
     <div className="container text-center py-5">
-      <h2 className="pb-2 border-bottom text-center">Reviews</h2>
+      <h2 className="pb-2 border-bottom text-center">Team Members</h2>
       <div className="row justify-content-center py-5">
         {Items.map((item, i) => {
           return (

@@ -1,27 +1,21 @@
 import React from "react"
+import PropTypes from "prop-types"
 import Header from "../Header/Header"
 import Footer from "../Footer/Footer"
-import PropTypes from "prop-types"
+import "../../styles/custom-style.scss"
 
-
-const Layout=({children})=> {
-  return(
-      <div>
-
-          
-<Header/>
-<div>{children}</div>
-<Footer/>
-
-
-</div>
+const Layout = ({ children }) => {
+  return (
+    <div className="container-fluid p-0">
+      <Header />
+      {children}
+      <Footer />
+    </div>
   )
-  }
-
-Layout.propTypes={
-children: PropTypes.node.isRequired,
 }
 
+Layout.propTypes = {
+  children: PropTypes.node.isRequired,
+}
 
-
-  export default Layout
+export default Layout

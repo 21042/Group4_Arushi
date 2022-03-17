@@ -4,14 +4,14 @@ import Hero from "../components/Hero/Hero"
 import Layout from "../components/Layout/Layout"
 import Team from "../components/Team/Team"
 
-export default function Home() {
+const Index = () => {
   return (
-    <div>
-      <Layout>
-        <Hero/>
-        <Features/>
-        <Team/>
-      </Layout>
-    </div>
+    <Layout>
+      <Hero/>
+      <Features/>
+      <Team/>
+    </Layout>
   )
 }
+
+export default Index

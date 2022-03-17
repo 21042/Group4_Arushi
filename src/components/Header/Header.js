@@ -9,7 +9,7 @@ const Header = () => {
     >
       <div className="container-fluid">
         <a className="navbar-brand" href="/">
-          PROJECT2022
+          Little Big Mart
         </a>
         <button
           className="navbar-toggler"
@@ -25,54 +25,36 @@ const Header = () => {
 
         <div className="collapse navbar-collapse" id="navbarsExample05">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-            <li className="btn text-danger">
-              <Link className="text-light" to="/">
+            <li className="btn text-danger fw-bold">
+              <Link className="text-warning fw-bold" to="/">
                 Home
               </Link>
             </li>
-            <li className="btn text-danger">
-              <Link className="text-light" to="/about">
+            <li className="btn text-danger fw-bold">
+              <Link className="text-warning fw-bold" to="/about">
                 About
               </Link>
             </li>
-            <li className="btn text-danger">
-              <Link className="text-light" to="/contact">
+            <li className="btn text-danger fw-bold">
+              <Link className="text-warning fw-bold" to="/contact">
                 Contact
               </Link>
             </li>
-            <li className="btn text-danger">
-              <Link className="text-warning" to="/blog">
+            <li className="btn text-danger fw-bold">
+              <Link className="text-warning  fw-bold" to="/blog">
                 Blog
               </Link>
             </li>
-            <li className="nav-item dropdown">
-              <a
-                className="nav-link dropdown-toggle"
-                href="/"
-                id="dropdown05"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Shops
-              </a>
-              <ul className="dropdown-menu" aria-labelledby="dropdown05">
-                <li>
-                  <a className="dropdown-item" href="/">
-                     clothes Store
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="/">
-                    Supriya Cosmetic store
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="/">
-                    Grocery Shop
-                  </a>
-                </li>
-              </ul>
-            </li>
+           <li className="nav-item dropdown">
+            <a className="nav-link dropdown-toggle" href="/" id="dropdown05" data-bs-toggle="dropdown" aria-expanded="false">Shops</a>
+            <ul className="dropdown-menu" aria-labelledby="dropdown05">
+              <li><a className="dropdown-item" href="/">Grocery Shop</a></li>
+              <li><a className="dropdown-item" href="/">Clothes Shop</a></li>
+              <li><a className="dropdown-item" href="/">Cosmetic Shop</a></li>
+              <li><a className="dropdown-item" href="/">jewellery Shop</a></li>
+              <li><a className="dropdown-item" href="/">Bekary Shop</a></li>
+            </ul>
+          </li>
           </ul>
           <form>
             <input
