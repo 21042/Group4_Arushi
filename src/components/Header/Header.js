@@ -48,11 +48,21 @@ const Header = () => {
            <li className="nav-item dropdown">
             <a className="nav-link dropdown-toggle" href="/" id="dropdown05" data-bs-toggle="dropdown" aria-expanded="false">Shops</a>
             <ul className="dropdown-menu" aria-labelledby="dropdown05">
-              <li><a className="dropdown-item" href="/">Grocery Shop</a></li>
-              <li><a className="dropdown-item" href="/">Clothes Shop</a></li>
-              <li><a className="dropdown-item" href="/">Cosmetic Shop</a></li>
-              <li><a className="dropdown-item" href="/">jewellery Shop</a></li>
-              <li><a className="dropdown-item" href="/">Bekary Shop</a></li>
+              <li><Link className="fw-bold" to="/groceryshop">
+                Grocery Shop
+              </Link></li>
+              <li><Link className="fw-bold" to="/clothesshop">
+                Clothes Shop
+              </Link></li>
+              <li><Link className="fw-bold" to="/bakeryshop">
+                Bakery Shop
+              </Link></li>
+              <li><Link className="fw-bold" to="/jewelleryshop">
+                Jewellery Shop
+              </Link></li>
+              <li><Link className="fw-bold" to="/cosmeticshop">
+                Cosmetic Shop
+              </Link></li>
             </ul>
           </li>
           </ul>

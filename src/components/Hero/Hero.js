@@ -8,19 +8,22 @@ const Hero = () => {
         <div className="col-10 col-sm-8 col-lg-6">
           <Image
             className="d-block mx-lg-auto img-fluid"
-            filename="1.png"
+            filename="image2.png"
             alt="1"
           />
         </div>
         <div className="col-lg-6">
           <h1 className="display-5 fw-bold lh-1 mb-3">
-            Responsive left-aligned hero with image
+            Shop Locally. Connect to premium brands and in-stock products at
+            your favorite local shops.
           </h1>
           <p className="lead">
-            Quickly design and customize responsive mobile-first sites with
-            Bootstrap, the world’s most popular front-end open source toolkit,
-            featuring Sass variables and mixins, responsive grid system,
-            extensive prebuilt components, and powerful JavaScript plugins.
+            we are introducing LocalDukaan.com - to bring Local Shops online and
+            promote #VocalforLocal initiative taken by our honourable Prime
+            Minister Shri Narendra Modi Ji.We create local online marketplace
+            websites for communities to help small businesses sell online
+            together and make it easy to shop and buy from local businesses
+            online.
           </p>
           <div className="d-grid gap-2 d-md-flex justify-content-md-start">
             <button
