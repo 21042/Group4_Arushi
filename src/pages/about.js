@@ -6,9 +6,9 @@ const About = () => {
   return (
     <Layout>
       <div className="container py-5">
-        <h2 className="pb-2 border-bottom text-center">About</h2>
+        <h2 className="pb-2 border-bottom text-center">Products</h2>
       </div>
-      <App/>
+      <App />
     </Layout>
   )
 }

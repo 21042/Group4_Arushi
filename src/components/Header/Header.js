@@ -32,7 +32,7 @@ const Header = () => {
             </li>
             <li className="btn text-danger fw-bold">
               <Link className="text-warning fw-bold" to="/about">
-                About
+                shop
               </Link>
             </li>
             <li className="btn text-danger fw-bold">
@@ -45,26 +45,6 @@ const Header = () => {
                 Blog
               </Link>
             </li>
-           <li className="nav-item dropdown">
-            <a className="nav-link dropdown-toggle" href="/" id="dropdown05" data-bs-toggle="dropdown" aria-expanded="false">Shops</a>
-            <ul className="dropdown-menu" aria-labelledby="dropdown05">
-              <li><Link className="fw-bold" to="/groceryshop">
-                Grocery Shop
-              </Link></li>
-              <li><Link className="fw-bold" to="/clothesshop">
-                Clothes Shop
-              </Link></li>
-              <li><Link className="fw-bold" to="/bakeryshop">
-                Bakery Shop
-              </Link></li>
-              <li><Link className="fw-bold" to="/jewelleryshop">
-                Jewellery Shop
-              </Link></li>
-              <li><Link className="fw-bold" to="/cosmeticshop">
-                Cosmetic Shop
-              </Link></li>
-            </ul>
-          </li>
           </ul>
           <form>
             <input
